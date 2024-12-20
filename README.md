@@ -5,7 +5,7 @@ Is a mushroom poisonous ? - Data Processing, Dimension Reduction, Classification
 Project led on a dataset referencing a wide panel of mushroom features (odor, color, habitat, number of
 rings,...).
 
-• Processing, cleaning and encoding of the data.
+• Processing, cleaning and encoding of the data. \n
 • Comparison of different dimension reduction techniques. Representation of the mushrooms as
 embeddings on a 2D dimension using the t-distributed stochastic neighbor embedding (T-SNE).
 • Analysis of the results using segmentation methods (clustering) with all the features and the three
