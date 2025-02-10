@@ -1,6 +1,9 @@
 # Is a Mushroom Poisonous?
 This project aims to predict whether a mushroom is poisonous or edible based on its physical characteristics using machine learning techniques.
 
+![image](https://github.com/user-attachments/assets/762142d0-cca2-4d1b-938b-304d9df6f6ce)
+
+
 ## Project Overview
 Mushrooms exhibit a wide range of physical features, some of which can be indicative of their edibility. This project utilizes a dataset containing various attributes of mushrooms to train a machine learning model that can classify them as either poisonous or edible.
 
@@ -17,5 +20,6 @@ The project follows these steps:
 • Model Selection and Training: Evaluating various machine learning algorithms to determine the best-performing model.
 
 • Model Evaluation: Assessing the model's performance using appropriate metrics and visualizations.
+
 ## Results
 The model achieved an accuracy of approximately 95% on the test set, indicating a high level of performance in distinguishing between poisonous and edible mushrooms.
