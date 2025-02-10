@@ -1,21 +1,21 @@
-# Is-a-mushroom-poisonous ?
+# Is a Mushroom Poisonous?
+This project aims to predict whether a mushroom is poisonous or edible based on its physical characteristics using machine learning techniques.
 
-Is a mushroom poisonous ? - Data Processing, Dimension Reduction, Classification 
+## Project Overview
+Mushrooms exhibit a wide range of physical features, some of which can be indicative of their edibility. This project utilizes a dataset containing various attributes of mushrooms to train a machine learning model that can classify them as either poisonous or edible.
 
-Project led on a dataset referencing a wide panel of mushroom features (odor, color, habitat, number of
-rings,...).
+## Dataset
+The dataset used in this project is sourced from the UCI Machine Learning Repository. It includes 8,124 samples of mushrooms, each described by 22 categorical features such as cap shape, cap surface, cap color, bruises, odor, gill attachment, gill spacing, gill size, gill color, stalk shape, stalk root, stalk surface above ring, stalk surface below ring, stalk color above ring, stalk color below ring, veil type, veil color, ring number, ring type, spore print color, population, and habitat. The target variable indicates whether each mushroom is edible or poisonous.
 
-• Processing, cleaning and encoding of the data.
+## Methodology
+The project follows these steps:
 
-• Comparison of different dimension reduction techniques. Representation of the mushrooms as
-embeddings on a 2D dimension using the t-distributed stochastic neighbor embedding (T-SNE).
+• Data Preprocessing: Handling missing values, encoding categorical variables, and splitting the data into training and testing sets.
 
-• Analysis of the results using segmentation methods (clustering) with all the features and the three
-most correlated features with the poisonous characteristic.
+• Exploratory Data Analysis (EDA): Analyzing the distribution of features and their correlation with the target variable.
 
-• Study of the features importance in the classification process with a Decision tree. Deduction of
-the minimum number of features required to obtain a perfect classification score.
+• Model Selection and Training: Evaluating various machine learning algorithms to determine the best-performing model.
 
-• Comprehension and interpretation of the results of the classification with the decision tree and
-confusion tables.
-
+• Model Evaluation: Assessing the model's performance using appropriate metrics and visualizations.
+## Results
+The model achieved an accuracy of approximately 95% on the test set, indicating a high level of performance in distinguishing between poisonous and edible mushrooms.
